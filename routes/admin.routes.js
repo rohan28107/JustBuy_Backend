@@ -1,10 +1,11 @@
 const express=require('express');
-const {AdminModel}=require("../model/admin.model")
+const {AdminModel}=require("../model/Admin.model")
 const jwt=require("jsonwebtoken");
 const bcrypt=require("bcrypt");
 
 const adminRouter=express.Router();
 
+// changed the file name
 
 
 adminRouter.post("/register" , async(req, res)=>{
