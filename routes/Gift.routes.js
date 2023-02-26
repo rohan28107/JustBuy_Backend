@@ -14,7 +14,7 @@ giftRouter.get("/", async(req,res)=>{
   
 })
 
-
+// adding gift routes
 giftRouter.post("/addgift", async(req,res)=>{
    const data=req.body;
    try{
